@@ -1,7 +1,6 @@
 @font-face {
     font-family: merriweather;
     src: url(../assets/fonts/MerriweatherSans-VariableFont_wght.ttf);
-
 }
 
 @font-face {
@@ -9,48 +8,46 @@
     src: url(../assets/fonts/MerriweatherSans-Italic-VariableFont_wght.ttf);
 }
 
-.title {
-    color: white;
-    font-family: "merriweather";
-    font-size: 5rem;
-    margin: 0px 15vw;
-    width:70vw;
-    text-align: center;
-
-    
-}
-
-.basic{
-    color: white;
-    font-family: "merriweather";
-    font-size: 2rem;
-    text-align: center;
-}
-
-.text{
-    color: white;
-    font-family: "merriweather";
-    font-size: 1rem;
-    text-align: center;
+:root{
+    font-family: "merriweather"; 
 }
 
 *{
     cursor: none;
 }
 
+.title {
+    color: white;
+
+    font-size: 5rem;
+    margin: 0px 15vw;
+    width:70vw;
+    text-align: center;
+}
+
+.center-text{
+    color: white;
+
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.link:hover{
+    opacity: 0.5;
+}
 
 .side {
-    height: 150vh;
+    height: 40vh;
     width: 100%;
 
     display: grid;
     
-    
     overflow: hidden;
     position: absolute;
 }
-
-
 
 .snippet {
     position:relative
@@ -59,7 +56,6 @@
 #about{
     background-color: rgb(116, 32, 32);
     z-index: 2;
-
 }
 
 #projects{
